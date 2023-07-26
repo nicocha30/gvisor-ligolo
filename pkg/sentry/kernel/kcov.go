@@ -19,16 +19,16 @@ import (
 	"io"
 	"sync"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/coverage"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/safemem"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/mm"
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/coverage"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/mm"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/pgalloc"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
 )
 
 // kcovAreaSizeMax is the maximum number of uint64 entries allowed in the kcov

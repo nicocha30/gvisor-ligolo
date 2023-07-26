@@ -17,17 +17,17 @@ package kernel
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/inet"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/futex"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/sched"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/inet"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/futex"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/sched"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
 )
 
 // TaskConfig defines the configuration of a new Task (see below).

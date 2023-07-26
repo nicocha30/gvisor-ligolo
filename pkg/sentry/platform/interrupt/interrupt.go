@@ -18,7 +18,7 @@ package interrupt
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 // Receiver receives interrupt notifications from a Forwarder.

@@ -20,17 +20,17 @@ import (
 	"runtime/trace"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/bits"
-	"gvisor.dev/gvisor/pkg/errors"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal"
-	"gvisor.dev/gvisor/pkg/metric"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/bits"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
+	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck"
+	pb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck/points/points_go_proto"
 )
 
 // SyscallRestartBlock represents the restart block for a syscall restartable

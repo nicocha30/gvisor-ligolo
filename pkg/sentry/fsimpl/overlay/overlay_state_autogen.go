@@ -3,7 +3,7 @@
 package overlay
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (fd *directoryFD) StateTypeName() string {

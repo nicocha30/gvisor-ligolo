@@ -3,7 +3,7 @@
 package cpuid
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (h *hwCap) StateTypeName() string {

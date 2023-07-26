@@ -20,9 +20,9 @@ import (
 
 	"github.com/google/subcommands"
 	"google.golang.org/protobuf/encoding/prototext"
-	"gvisor.dev/gvisor/pkg/metric"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
+	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
 )
 
 // MetricMetadata implements subcommands.Command for the "metric-metadata" command.

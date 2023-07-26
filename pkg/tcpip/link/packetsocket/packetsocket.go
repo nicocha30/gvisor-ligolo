@@ -17,9 +17,9 @@
 package packetsocket
 
 import (
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/link/nested"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/nested"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 var _ stack.NetworkDispatcher = (*endpoint)(nil)

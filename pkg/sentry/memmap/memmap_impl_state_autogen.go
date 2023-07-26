@@ -3,7 +3,7 @@
 package memmap
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (s *MappingSet) StateTypeName() string {

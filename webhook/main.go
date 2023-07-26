@@ -16,7 +16,7 @@
 package main
 
 import (
-	"gvisor.dev/gvisor/webhook/pkg/cli"
+	"github.com/nicocha30/gvisor-ligolo/webhook/pkg/cli"
 )
 
 func main() {

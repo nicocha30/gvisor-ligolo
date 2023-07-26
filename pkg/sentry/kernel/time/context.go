@@ -15,7 +15,7 @@
 package time
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
 )
 
 // contextID is the time package's type for context.Context.Value keys.

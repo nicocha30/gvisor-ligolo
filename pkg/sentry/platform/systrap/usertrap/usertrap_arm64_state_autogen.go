@@ -6,7 +6,7 @@
 package usertrap
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (s *State) StateTypeName() string {

@@ -15,9 +15,9 @@
 package transport
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/syserr"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 // queue is a buffer queue.

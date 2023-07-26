@@ -3,7 +3,7 @@
 package transport
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (e *connectionedEndpoint) StateTypeName() string {

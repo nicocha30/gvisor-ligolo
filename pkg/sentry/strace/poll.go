@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	slinux "gvisor.dev/gvisor/pkg/sentry/syscalls/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
+	slinux "github.com/nicocha30/gvisor-ligolo/pkg/sentry/syscalls/linux"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
 )
 
 // PollEventSet is the set of poll(2) event flags.

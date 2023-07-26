@@ -16,9 +16,9 @@ package accel
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/gasket"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/gasket"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
 )
 
 // Filters returns seccomp-bpf filters for this package.

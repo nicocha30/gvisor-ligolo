@@ -17,8 +17,8 @@ package kvm
 import (
 	"golang.org/x/sys/unix"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
 )
 
 // SyscallFilters returns syscalls made exclusively by the KVM platform.

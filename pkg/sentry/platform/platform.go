@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"os"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/hostmm"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/hostmm"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
+	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
 )
 
 // Platform provides abstractions for execution contexts (Context,

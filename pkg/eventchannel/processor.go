@@ -23,7 +23,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
-	pb "gvisor.dev/gvisor/pkg/eventchannel/eventchannel_go_proto"
+	pb "github.com/nicocha30/gvisor-ligolo/pkg/eventchannel/eventchannel_go_proto"
 )
 
 // eventProcessor carries display state across multiple events.

@@ -24,7 +24,7 @@ import (
 	"os"
 
 	"github.com/mattbaird/jsonpatch"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 	admv1beta1 "k8s.io/api/admission/v1beta1"
 	admregv1beta1 "k8s.io/api/admissionregistration/v1beta1"
 	v1 "k8s.io/api/core/v1"

@@ -3,7 +3,7 @@
 package sys
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (r *dirRefs) StateTypeName() string {

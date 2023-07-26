@@ -20,9 +20,9 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/fdchannel"
-	"gvisor.dev/gvisor/pkg/flipcall"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/fdchannel"
+	"github.com/nicocha30/gvisor-ligolo/pkg/flipcall"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 var (

@@ -18,11 +18,11 @@
 package filter
 
 import (
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/devices/accel"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/devices/accel"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/devices/nvproxy"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
 )
 
 // Options are seccomp filter related options.

@@ -21,7 +21,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 // NonBlockingPoll polls the given FD in non-blocking fashion. It is used just

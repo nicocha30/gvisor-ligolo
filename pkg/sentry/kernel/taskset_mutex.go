@@ -3,8 +3,8 @@ package kernel
 import (
 	"reflect"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/sync/locking"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync/locking"
 )
 
 // RWMutex is sync.RWMutex with the correctness validator.

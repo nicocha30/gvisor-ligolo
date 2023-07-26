@@ -17,7 +17,7 @@ package cmd
 import (
 	"os"
 
-	"gvisor.dev/gvisor/runsc/cmd/util"
+	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
 )
 
 // getwdOrDie returns the current working directory and dies if it cannot.

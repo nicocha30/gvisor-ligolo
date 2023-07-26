@@ -19,8 +19,8 @@ package kvm
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/ring0"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
 )
 
 var (

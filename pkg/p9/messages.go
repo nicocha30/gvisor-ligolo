@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"math"
 
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 // ErrInvalidMsgType is returned when an unsupported message type is found.

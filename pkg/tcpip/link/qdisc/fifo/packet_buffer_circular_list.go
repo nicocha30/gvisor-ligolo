@@ -13,7 +13,7 @@
 
 package fifo
 
-import "gvisor.dev/gvisor/pkg/tcpip/stack"
+import "github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
 
 // packetBufferCircularList is a slice-backed circular list. All operations are
 // O(1) unless otherwise noted. It only allocates once, during the call to

@@ -3,8 +3,8 @@ package pipe
 import (
 	"reflect"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/sync/locking"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync/locking"
 )
 
 // Mutex is sync.Mutex with the correctness validator.

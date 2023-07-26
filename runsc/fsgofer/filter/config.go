@@ -18,8 +18,8 @@ import (
 	"os"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
 )
 
 // allowedSyscalls is the set of syscalls executed by the gofer.

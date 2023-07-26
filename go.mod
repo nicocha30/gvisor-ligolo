@@ -1,4 +1,4 @@
-module gvisor.dev/gvisor
+module github.com/nicocha30/gvisor-ligolo
 
 go 1.20
 

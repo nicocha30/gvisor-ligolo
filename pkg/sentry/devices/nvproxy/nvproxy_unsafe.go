@@ -20,7 +20,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/nvgpu"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/nvgpu"
 )
 
 func hostDriverVersion() (string, error) {

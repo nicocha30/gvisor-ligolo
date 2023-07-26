@@ -3,7 +3,7 @@
 package devpts
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (fstype *FilesystemType) StateTypeName() string {

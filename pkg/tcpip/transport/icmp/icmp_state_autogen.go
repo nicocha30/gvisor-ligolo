@@ -3,7 +3,7 @@
 package icmp
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (p *icmpPacket) StateTypeName() string {

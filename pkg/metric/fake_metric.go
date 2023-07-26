@@ -14,7 +14,7 @@
 
 package metric
 
-import pb "gvisor.dev/gvisor/pkg/metric/metric_go_proto"
+import pb "github.com/nicocha30/gvisor-ligolo/pkg/metric/metric_go_proto"
 
 // FakeUint64Metric is a type that implements all the methods of a Uint64Metric
 // as a no-op.

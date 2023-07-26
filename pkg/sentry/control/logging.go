@@ -17,9 +17,9 @@ package control
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/strace"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sniffer"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/strace"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sniffer"
 )
 
 // LoggingArgs are the arguments to use for changing the logging

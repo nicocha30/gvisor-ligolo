@@ -15,8 +15,8 @@
 package usermem
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
 )
 
 // IOCopyContext wraps an object implementing hostarch.IO to implement

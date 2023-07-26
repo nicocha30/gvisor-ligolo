@@ -19,7 +19,7 @@ package filter
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
 )
 
 // profileFilters returns extra syscalls made by runtime/pprof package.

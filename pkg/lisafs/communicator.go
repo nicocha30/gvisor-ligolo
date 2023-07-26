@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 // Communicator is a server side utility which represents exactly how the

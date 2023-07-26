@@ -3,7 +3,7 @@
 package socket
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (i *IPControlMessages) StateTypeName() string {

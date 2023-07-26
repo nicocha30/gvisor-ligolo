@@ -20,7 +20,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
 )
 
 func registerUMEM(fd int, reg unix.XDPUmemReg) error {

@@ -18,9 +18,9 @@
 package kvm
 
 import (
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/ring0"
-	"gvisor.dev/gvisor/pkg/sentry/arch/fpu"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
+	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/fpu"
 )
 
 // userRegs represents KVM user registers.

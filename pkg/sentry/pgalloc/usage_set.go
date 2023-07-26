@@ -1,7 +1,7 @@
 package pgalloc
 
 import (
-	__generics_imported0 "gvisor.dev/gvisor/pkg/sentry/memmap"
+	__generics_imported0 "github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
 )
 
 import (

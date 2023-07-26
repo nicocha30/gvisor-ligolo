@@ -15,8 +15,8 @@
 package linuxerr
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux/errno"
-	"gvisor.dev/gvisor/pkg/errors"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux/errno"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors"
 )
 
 var (

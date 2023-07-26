@@ -56,8 +56,8 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/compressio"
-	"gvisor.dev/gvisor/pkg/state/wire"
+	"github.com/nicocha30/gvisor-ligolo/pkg/compressio"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state/wire"
 )
 
 // keySize is the AES-256 key length.

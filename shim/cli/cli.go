@@ -19,7 +19,7 @@ package cli
 import (
 	containerdshim "github.com/containerd/containerd/runtime/v2/shim"
 
-	"gvisor.dev/gvisor/pkg/shim"
+	"github.com/nicocha30/gvisor-ligolo/pkg/shim"
 )
 
 // Main is the main entrypoint.

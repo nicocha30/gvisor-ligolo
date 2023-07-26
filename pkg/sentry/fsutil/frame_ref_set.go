@@ -17,8 +17,8 @@ package fsutil
 import (
 	"math"
 
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
 )
 
 // FrameRefSegInfo holds reference count and memory cgroup id of the segment.

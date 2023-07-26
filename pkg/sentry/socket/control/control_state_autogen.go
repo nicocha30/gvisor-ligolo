@@ -3,7 +3,7 @@
 package control
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (c *scmCredentials) StateTypeName() string {

@@ -15,8 +15,8 @@
 package strace
 
 import (
-	"gvisor.dev/gvisor/pkg/abi"
-	"gvisor.dev/gvisor/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 // CloseRangeFlagSet is the set of close_range(2) flags.

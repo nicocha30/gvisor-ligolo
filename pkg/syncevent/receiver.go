@@ -15,7 +15,7 @@
 package syncevent
 
 import (
-	"gvisor.dev/gvisor/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
 )
 
 // Receiver is an event sink that holds pending events and invokes a callback

@@ -3,7 +3,7 @@
 package shm
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (r *Registry) StateTypeName() string {

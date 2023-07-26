@@ -3,7 +3,7 @@
 package udp
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (p *udpPacket) StateTypeName() string {

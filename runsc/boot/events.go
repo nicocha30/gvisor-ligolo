@@ -17,8 +17,8 @@ package boot
 import (
 	"errors"
 
-	"gvisor.dev/gvisor/pkg/sentry/control"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/control"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
 )
 
 // EventOut is the return type of the Event command.

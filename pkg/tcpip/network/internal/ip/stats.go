@@ -14,7 +14,7 @@
 
 package ip
 
-import "gvisor.dev/gvisor/pkg/tcpip"
+import "github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
 
 // LINT.IfChange(MultiCounterIPForwardingStats)
 

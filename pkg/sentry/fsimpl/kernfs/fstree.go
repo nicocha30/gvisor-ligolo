@@ -1,8 +1,8 @@
 package kernfs
 
 import (
-	"gvisor.dev/gvisor/pkg/fspath"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/fspath"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
 )
 
 // IsAncestorDentry returns true if d is an ancestor of d2; that is, d is

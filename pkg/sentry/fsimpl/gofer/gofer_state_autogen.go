@@ -3,7 +3,7 @@
 package gofer
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (l *dentryList) StateTypeName() string {

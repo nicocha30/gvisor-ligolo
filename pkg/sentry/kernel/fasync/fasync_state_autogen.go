@@ -3,7 +3,7 @@
 package fasync
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (a *FileAsync) StateTypeName() string {

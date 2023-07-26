@@ -14,7 +14,7 @@
 
 package header
 
-import "gvisor.dev/gvisor/pkg/tcpip"
+import "github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
 
 // NDPNeighborSolicit is an NDP Neighbor Solicitation message. It will only
 // contain the body of an ICMPv6 packet.

@@ -17,7 +17,7 @@ package main
 
 import (
 	"golang.org/x/tools/go/analysis/singlechecker"
-	"gvisor.dev/gvisor/tools/checklocks"
+	"github.com/nicocha30/gvisor-ligolo/tools/checklocks"
 )
 
 func main() { singlechecker.Main(checklocks.Analyzer) }

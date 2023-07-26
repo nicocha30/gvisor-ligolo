@@ -3,7 +3,7 @@
 package lisafs
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (r *boundSocketFDRefs) StateTypeName() string {

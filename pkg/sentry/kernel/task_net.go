@@ -15,7 +15,7 @@
 package kernel
 
 import (
-	"gvisor.dev/gvisor/pkg/sentry/inet"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/inet"
 )
 
 // IsNetworkNamespaced returns true if t is in a non-root network namespace.

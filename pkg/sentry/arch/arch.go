@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal"
-	"gvisor.dev/gvisor/pkg/sentry/arch/fpu"
-	"gvisor.dev/gvisor/pkg/sentry/limits"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/fpu"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/limits"
 )
 
 // Arch describes an architecture.

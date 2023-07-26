@@ -25,10 +25,10 @@ import (
 	"strings"
 	"text/template"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/sentry/watchdog"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/watchdog"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
 )
 
 // RegisterFlags registers flags used to populate Config.

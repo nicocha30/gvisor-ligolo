@@ -21,9 +21,9 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/errors"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sighandling"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sighandling"
 )
 
 // SegvError is returned when a safecopy function receives SIGSEGV.

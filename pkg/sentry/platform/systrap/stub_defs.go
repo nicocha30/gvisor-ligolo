@@ -17,7 +17,7 @@ package systrap
 import (
 	// Required for fact extraction.
 	_ "golang.org/x/sys/unix"
-	_ "gvisor.dev/gvisor/pkg/abi/linux"
+	_ "github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 // _NEW_STUB is the value of the BX register when a new stub thread is created.

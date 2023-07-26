@@ -17,11 +17,11 @@ package stack
 import (
 	"time"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/internal/tcp"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/internal/tcp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
 )
 
 // TCPProbeFunc is the expected function type for a TCP probe function to be

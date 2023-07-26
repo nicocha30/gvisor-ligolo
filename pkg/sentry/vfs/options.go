@@ -15,8 +15,8 @@
 package vfs
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/socket/unix/transport"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/unix/transport"
 )
 
 // GetDentryOptions contains options to VirtualFilesystem.GetDentryAt() and

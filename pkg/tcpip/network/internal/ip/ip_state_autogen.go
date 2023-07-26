@@ -3,7 +3,7 @@
 package ip
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (e *ErrMessageTooLong) StateTypeName() string {

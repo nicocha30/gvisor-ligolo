@@ -15,8 +15,8 @@
 package strace
 
 import (
-	"gvisor.dev/gvisor/pkg/abi"
-	"gvisor.dev/gvisor/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 // FutexCmd are the possible futex(2) commands.

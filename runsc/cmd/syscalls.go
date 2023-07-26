@@ -26,9 +26,9 @@ import (
 	"text/tabwriter"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
 )
 
 // Syscalls implements subcommands.Command for the "syscalls" command.

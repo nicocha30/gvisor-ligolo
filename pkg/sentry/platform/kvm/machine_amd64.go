@@ -25,13 +25,13 @@ import (
 	"runtime/debug"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/ring0"
-	"gvisor.dev/gvisor/pkg/ring0/pagetables"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
-	ktime "gvisor.dev/gvisor/pkg/sentry/time"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
+	"github.com/nicocha30/gvisor-ligolo/pkg/ring0/pagetables"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
+	ktime "github.com/nicocha30/gvisor-ligolo/pkg/sentry/time"
 )
 
 // initArchState initializes architecture-specific state.

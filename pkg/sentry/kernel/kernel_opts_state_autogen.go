@@ -6,7 +6,7 @@
 package kernel
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (s *SpecialOpts) StateTypeName() string {

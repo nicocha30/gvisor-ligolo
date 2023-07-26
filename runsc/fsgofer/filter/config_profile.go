@@ -16,7 +16,7 @@ package filter
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
 )
 
 var profileFilters = seccomp.SyscallRules{

@@ -3,7 +3,7 @@
 package uevent
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (p *Protocol) StateTypeName() string {

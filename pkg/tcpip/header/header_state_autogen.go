@@ -3,7 +3,7 @@
 package header
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (t *TCPSynOptions) StateTypeName() string {

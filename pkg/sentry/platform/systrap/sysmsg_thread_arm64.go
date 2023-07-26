@@ -14,7 +14,7 @@
 
 package systrap
 
-import "gvisor.dev/gvisor/pkg/seccomp"
+import "github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
 
 func appendSysThreadArchSeccompRules(rules []seccomp.RuleSet) []seccomp.RuleSet {
 	return rules

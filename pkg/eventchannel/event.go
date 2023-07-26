@@ -26,11 +26,11 @@ import (
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	pb "gvisor.dev/gvisor/pkg/eventchannel/eventchannel_go_proto"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/unet"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	pb "github.com/nicocha30/gvisor-ligolo/pkg/eventchannel/eventchannel_go_proto"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/unet"
 )
 
 // Emitter emits a proto message.

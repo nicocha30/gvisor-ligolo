@@ -3,7 +3,7 @@
 package cgroupfs
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (c *controllerCommon) StateTypeName() string {

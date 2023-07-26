@@ -17,5 +17,5 @@ package ring0
 
 import (
 	// Required for facts checks.
-	_ "gvisor.dev/gvisor/pkg/abi/linux"
+	_ "github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )

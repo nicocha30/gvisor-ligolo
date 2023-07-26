@@ -1,7 +1,7 @@
 package mm
 
 import (
-	__generics_imported0 "gvisor.dev/gvisor/pkg/hostarch"
+	__generics_imported0 "github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
 )
 
 import (

@@ -3,7 +3,7 @@
 package arch
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (m *MmapLayout) StateTypeName() string {

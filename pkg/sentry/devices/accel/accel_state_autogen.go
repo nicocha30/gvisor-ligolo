@@ -3,7 +3,7 @@
 package accel
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (dev *accelDevice) StateTypeName() string {

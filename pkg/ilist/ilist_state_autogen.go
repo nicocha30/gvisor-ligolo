@@ -3,7 +3,7 @@
 package ilist
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (l *List) StateTypeName() string {

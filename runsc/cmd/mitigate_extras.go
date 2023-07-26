@@ -18,8 +18,8 @@
 package cmd
 
 import (
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/runsc/mitigate"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/runsc/mitigate"
 )
 
 // usage returns any extra bits of the usage string.

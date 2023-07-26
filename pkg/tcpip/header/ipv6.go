@@ -19,7 +19,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
 )
 
 const (

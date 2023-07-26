@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 // httpTimeout is the timeout used for all connect/read/write operations of the HTTP server.

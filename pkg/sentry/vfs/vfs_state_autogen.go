@@ -6,7 +6,7 @@
 package vfs
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (a *anonFilesystemType) StateTypeName() string {

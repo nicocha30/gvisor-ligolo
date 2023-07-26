@@ -19,13 +19,13 @@ package sharedmem
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/buffer"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/eventfd"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/pipe"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/queue"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
+	"github.com/nicocha30/gvisor-ligolo/pkg/eventfd"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sharedmem/pipe"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sharedmem/queue"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 // serverTx represents the server end of the sharedmem queue and is used to send

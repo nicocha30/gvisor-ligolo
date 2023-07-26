@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 // EnterInitialCgroups moves t into an initial set of cgroups.

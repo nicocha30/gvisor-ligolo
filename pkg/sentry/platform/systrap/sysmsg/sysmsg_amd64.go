@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/cpuid"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
 )
 
 // SighandlerBlob contains the compiled code of the sysmsg signal handler.

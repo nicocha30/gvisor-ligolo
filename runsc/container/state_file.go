@@ -26,8 +26,8 @@ import (
 
 	"github.com/gofrs/flock"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 const stateFileExtension = "state"

@@ -6,7 +6,7 @@
 package atomicbitops
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (i *Int64) StateTypeName() string {

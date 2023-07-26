@@ -3,7 +3,7 @@
 package eventfd
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (efd *EventFileDescription) StateTypeName() string {

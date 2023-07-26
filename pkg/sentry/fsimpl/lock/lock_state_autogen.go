@@ -3,7 +3,7 @@
 package lock
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (o *OwnerInfo) StateTypeName() string {

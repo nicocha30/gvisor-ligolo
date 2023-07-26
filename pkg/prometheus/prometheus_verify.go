@@ -23,7 +23,7 @@ import (
 	"time"
 	"unicode"
 
-	pb "gvisor.dev/gvisor/pkg/metric/metric_go_proto"
+	pb "github.com/nicocha30/gvisor-ligolo/pkg/metric/metric_go_proto"
 )
 
 const (

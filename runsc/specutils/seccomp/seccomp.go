@@ -21,12 +21,12 @@ import (
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/bpf"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	slinux "gvisor.dev/gvisor/pkg/sentry/syscalls/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/bpf"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
+	slinux "github.com/nicocha30/gvisor-ligolo/pkg/sentry/syscalls/linux"
 )
 
 var (

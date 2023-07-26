@@ -19,13 +19,13 @@ package memevent
 import (
 	"time"
 
-	"gvisor.dev/gvisor/pkg/eventchannel"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/metric"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	pb "gvisor.dev/gvisor/pkg/sentry/kernel/memevent/memory_events_go_proto"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/eventchannel"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
+	pb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/memevent/memory_events_go_proto"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 var totalTicks = metric.MustCreateNewUint64Metric("/memory_events/ticks", false /*sync*/, "Total number of memory event periods that have elapsed since startup.")

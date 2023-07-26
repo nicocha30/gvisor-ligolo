@@ -9,7 +9,7 @@ package uncaught_signal_go_proto
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	registers_go_proto "gvisor.dev/gvisor/pkg/sentry/arch/registers_go_proto"
+	registers_go_proto "github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/registers_go_proto"
 	reflect "reflect"
 	sync "sync"
 )

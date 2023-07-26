@@ -18,7 +18,7 @@
 package seccomp
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 const (

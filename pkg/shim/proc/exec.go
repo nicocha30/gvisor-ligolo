@@ -32,9 +32,9 @@ import (
 	runc "github.com/containerd/go-runc"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/cleanup"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
 
-	"gvisor.dev/gvisor/pkg/shim/runsc"
+	"github.com/nicocha30/gvisor-ligolo/pkg/shim/runsc"
 )
 
 type execProcess struct {

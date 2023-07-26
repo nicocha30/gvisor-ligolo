@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 // profileCPU returns a CPU profile over HTTP.

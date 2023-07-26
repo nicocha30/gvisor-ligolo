@@ -16,7 +16,7 @@
 package pool
 
 import (
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 // Pool is a simple allocator.

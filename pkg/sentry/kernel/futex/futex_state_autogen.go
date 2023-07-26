@@ -3,7 +3,7 @@
 package futex
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (b *bucket) StateTypeName() string {

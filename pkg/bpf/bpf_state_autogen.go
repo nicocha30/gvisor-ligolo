@@ -3,7 +3,7 @@
 package bpf
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (p *Program) StateTypeName() string {

@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 // Packets consist of a 16-byte header followed by an arbitrarily-sized

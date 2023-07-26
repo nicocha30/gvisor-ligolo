@@ -19,9 +19,9 @@ package sharedmem
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/eventfd"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/queue"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/eventfd"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sharedmem/queue"
 )
 
 // rx holds all state associated with an rx queue.

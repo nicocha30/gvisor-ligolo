@@ -3,7 +3,7 @@
 package tcp
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (offset *TSOffset) StateTypeName() string {

@@ -21,10 +21,10 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux/errno"
-	"gvisor.dev/gvisor/pkg/errors"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/safecopy"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux/errno"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/safecopy"
 )
 
 // Error represents an internal error.

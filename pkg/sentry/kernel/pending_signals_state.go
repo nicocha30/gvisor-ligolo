@@ -14,7 +14,7 @@
 
 package kernel
 
-import "gvisor.dev/gvisor/pkg/abi/linux"
+import "github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 
 // +stateify savable
 type savedPendingSignal struct {

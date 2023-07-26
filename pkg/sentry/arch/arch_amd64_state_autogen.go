@@ -6,7 +6,7 @@
 package arch
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (c *Context64) StateTypeName() string {

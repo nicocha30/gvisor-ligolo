@@ -17,7 +17,7 @@ package limits
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 // FromLinuxResource maps linux resources to LimitTypes.

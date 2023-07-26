@@ -3,7 +3,7 @@
 package sockfs
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (fsType *filesystemType) StateTypeName() string {

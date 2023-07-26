@@ -3,7 +3,7 @@
 package buffer
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
 )
 
 func (b *Buffer) StateTypeName() string {
