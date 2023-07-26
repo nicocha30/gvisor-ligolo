@@ -1287,7 +1287,7 @@ func (e *endpoint) deliverPacketLocally(h header.IPv4, pkt stack.PacketBufferPtr
 		// headers, the setting of the transport number here should be
 		// unnecessary and removed.
 		pkt.TransportProtocolNumber = p
-		e.handleICMP(pkt)
+		//e.handleICMP(pkt)
 		return
 	}
 	// ICMP handles options itself but do it here for all remaining destinations.
